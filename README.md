@@ -3,11 +3,11 @@
 
 ### The program consists of the following functions:
 
-1. **GET**: The contents of the requested resource should be displayed in the client. If the requested
-resource is not available with the server, the server should communicate an error message to
+1. **GET**: The contents of the requested resource are displayed in the client. If the requested
+resource is not available with the server, the server communicates an error message to
 the client.
 
-2. **POST**: The server should create a new resource corresponding to the data communicated by
+2. **POST**: The server creates a new resource corresponding to the data communicated by
 the client.
 
 3. **PUT**: Client communicates the name of the resource to be updated, along with the updated
@@ -17,3 +17,5 @@ is not available with the server, the server creates a new resource with the upd
 4. **DELETE**: Client communicates the name of the resource to be deleted in the server. The server
 performs the deletion accordingly. If the corresponding resource is not present in the server,
 an error message should be communicated to the client.
+
+**Note**: Use .txt as the valid extension for the files communicated
