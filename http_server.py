@@ -2,7 +2,7 @@ import socket
 import os
 
 # Define the server address (IP and port)
-server_address = ('192.168.157.226', 12345)
+server_address = ('server_ip', port_no) # Use ipconfig to obtain the serevrs ip address and also use same port for client and serevr
 
 # Create a socket and bind it to the server address
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
